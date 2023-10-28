@@ -10,5 +10,5 @@ fs.stat('novoarquivo.txt', (err, stats) =>{
     console.log(stats.isDirectory())
     console.log(stats.isSymbolicLink())
     console.log(stats.ctime)
-    console.log(stats.size)
+    console.log(stats.size);
 })
